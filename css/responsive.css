@@ -1,0 +1,325 @@
+/* 1200 */
+@media only screen and (max-width: 1200px) {
+    /* header */
+    .box-menu{
+        height: 45px;
+    }
+    .menu-head{
+        font-size: 0.9rem;
+    }
+    .logo a{
+        font-size: 1.7rem;
+    }
+    .text-welcome,.text-website{
+        font-size: 3.5rem;
+    }
+     .text-to{
+        font-size: 3rem;
+    }
+    .text-welcome,.text-to,.text-website{
+        letter-spacing: -4px;
+        line-height: 4rem;
+    }     
+    /* header */
+
+    /* content-2*/
+    .box-profile{
+        width: 500px;
+        height: 330px;
+        padding: 20px;
+    }
+    .box-img-profile img{
+        width: 100%;
+    }
+    .text-about{
+        margin-left: 20px;
+    }
+    .text-about h1{
+        font-size: 1.4rem;
+        margin-bottom: 5px;
+    }
+    .icon{
+        margin-bottom: 5px;
+    }
+    .icon i{
+        font-size: 0.85rem;
+    }
+    .icon-contact i{
+        font-size: 0.9rem;
+    }
+    /* content-2 */
+
+    /* content-3 */
+    .box-skill{
+        width: 680px;
+    }
+    .box-item{
+        width: 200px;
+        height: 190px;
+    }
+    .box-item img{
+        width: 35%;
+    }
+     .box-item h1{
+        margin-top: 15px;
+        font-size: 1.1rem;
+    }
+    /* content-3 */
+
+    /*foter*/
+    .copyright{
+        font-size: 0.8rem;
+        padding: 5px 0;
+    }
+    /*foter*/
+}
+/* 1200 */
+
+
+/* 800 */
+@media only screen and (max-width: 800px) {
+   /* header */
+    .box-menu{
+        height: 40px;
+        padding: 0 35px;
+    }
+    .menu-head{
+        width: 100%;
+        height: 100vh;
+        top: 0;
+        right: -100rem;
+        padding: 11px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+    .menu-head a{
+        width: 100%;
+        padding: 10px 10px;
+        margin: 5px 0 0 0;
+        font-size: 0.9rem;
+        position: relative;
+        background-color: rgba(50, 50, 50, 0.8);
+    }
+    .opnemenu{
+        right: 0;
+    }
+    #fa-bars{
+        display: block;
+    }
+    #a-xmark{
+        width: 0%;
+        bottom: 4px;
+        right: 0;
+        position: relative;
+        display: block;
+    }
+    hr{
+        margin-top: 8px;
+        display: block;
+    }
+    .logo a{
+        font-size: 1.5rem;
+    }
+    .text-welcome,.text-website{
+        font-size: 3rem;
+    }
+     .text-to{
+        font-size: 2.5rem;
+        letter-spacing: 10px;
+    }
+    .text-welcome,.text-to,.text-website{
+        letter-spacing: -4px;
+        line-height: 3rem;
+    }     
+    /* header */
+
+    /* content-2*/
+    .box-profile{
+        width: 410px;
+        height: 260px;
+        padding: 20px;
+    }
+    .box-img-profile img{
+        width: 100%;
+    }
+    .text-about{
+        margin-left: 20px;
+    }
+    .text-about h1{
+        font-size: 1.1rem;
+        margin-bottom: 5px;
+    }
+    .icon{
+        margin-bottom: -5px;
+    }
+    .icon i{
+        font-size: 0.7rem;
+    }
+    .icon i span{
+        margin-left: 6px;
+    }
+    .icon-contact i{
+        font-size: 0.8rem;
+        margin-bottom: 0px;
+    }
+    .text-span{
+        padding-left: 0.5rem;
+
+    }
+    /* content-2 */
+
+    /* content-3 */
+    .box-skill{
+        width: 510px;
+    }
+    .box-item{
+        width: 150px;
+        height: 140px;
+    }
+    .box-item img{
+        width: 35%;
+    }
+     .box-item h1{
+        margin-top: 10px;
+        font-size: 0.7rem;
+    }
+    /* content-3 */
+
+    /*foter*/
+    .copyright{
+        font-size: 0.7rem;
+        padding: 5px 0;
+    }
+    /*foter*/
+}
+/* 800 */
+
+/* 480 */
+@media only screen and (max-width: 480px) {
+   /* header */
+    .box-menu{
+        height: 35px;
+        padding: 0 35px;
+    }
+    .menu-head{
+        width: 100%;
+        height: 100vh;
+        top: 0;
+        right: -100rem;
+        padding: 11px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+    .menu-head a{
+        width: 100%;
+        padding: 10px 10px;
+        margin: 5px 0 0 0;
+        font-size: 0.8rem;
+        position: relative;
+        background-color: rgba(50, 50, 50, 0.8);
+    }
+    .opnemenu{
+        right: 0;
+    }
+    #fa-bars{
+        display: block;
+    }
+    #a-xmark{
+        width: 0%;
+        bottom: 5px;
+        right: 0;
+        position: relative;
+        display: block;
+    }
+    hr{
+        display: block;
+    }
+    .logo a{
+        font-size: 1.3rem;
+    }
+    .text-welcome,.text-website{
+        font-size: 2.5rem;
+    }
+     .text-to{
+        font-size: 2rem;
+        letter-spacing: 10px;
+    }
+    .text-welcome,.text-to,.text-website{
+        letter-spacing: -2px;
+        line-height: 2.5rem;
+    }     
+    /* header */
+
+    /* content-2*/
+    .box-profile{
+        width: 275px;
+        height: 170px;
+        padding: 10px;
+    }
+    .box-img-profile img{
+        width: 100%;
+    }
+    .text-about{
+        margin-left: 10px;
+    }
+    .text-about h1{
+        font-size: 0.8rem;
+        margin-bottom: 5px;
+    }
+    .icon{
+        margin-bottom: 5px;
+    }
+    .icon i{
+        margin-bottom: 5px;
+        font-size: 0.5rem;
+    }
+    .icon i span{
+        margin-left: 5px;
+    }
+    .icon-contact{
+        margin-top: -5px;
+    }
+    .icon-contact span {
+        margin-bottom: -5px;
+    }
+    .icon-contact i{
+        font-size: 0.55rem;
+    }
+    .text-span{
+        padding-left: 0.35rem;
+    }
+    /* content-2 */
+
+    /* content-3 */
+    .box-skill{
+        width: 510px;
+        gap: 20px;
+        grid-template-columns: 1fr;
+    }
+    .box-item{
+        width: 150px;
+        height: 140px;
+    }
+    .box-item img{
+        width: 40%;
+    }
+     .box-item h1{
+        margin-top: 10px;
+        font-size: 0.75rem;
+    }
+    /* content-3 */
+
+    /*foter*/
+    .copyright{
+        font-size: 0.65rem;
+        padding: 5px 0;
+    }
+    /*foter*/
+}
+/* 480 */
